@@ -10,7 +10,7 @@ public class PetPojo {
     private int id;
 
     @JsonFormat(with = JsonFormat.Feature.ACCEPT_SINGLE_VALUE_AS_ARRAY)
-    private String category;
+    private ArrayList category;
 
     @JsonProperty
     private String name;
