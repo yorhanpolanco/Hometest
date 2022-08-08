@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetStore API Test Suite">
+    <test name="TC001 - Find pets using any valid status (pending, available and sold)">
+<!--        <parameter name="characterExpected" value="[walter white]"/>-->
+        <classes>
+            <class name="testcases.PetStoreAPI_PetTest">
+                <methods>
+                    <include name="findPetsByAnyStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="TC002 - Try to search pets using an invalid status">
+        <parameter name="invalidStatus" value="pendin"/>
+        <classes>
+            <class name="testcases.PetStoreAPI_PetTest">
+                <methods>
+                    <include name="tryToSearchPetByInvalidStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="TC003 - Add new pet to the store">
+        <classes>
+            <class name="testcases.PetStoreAPI_PetTest">
+                <methods>
+                    <include name="addNewPetToStore"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="TC004 - Delete pet from store using pet id">
+        <parameter name="petId" value="11"/>
+        <classes>
+            <class name="testcases.PetStoreAPI_PetTest">
+                <methods>
+                    <include name="deletePetFromStore"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

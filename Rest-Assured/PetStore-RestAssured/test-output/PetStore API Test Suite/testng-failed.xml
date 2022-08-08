@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PetStore API Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC004 - Delete pet from store using pet id(failed)">
+    <parameter name="petId" value="11"/>
+    <classes>
+      <class name="testcases.PetStoreAPI_PetTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="deletePetFromStore" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.PetStoreAPI_PetTest -->
+    </classes>
+  </test> <!-- TC004 - Delete pet from store using pet id(failed) -->
+</suite> <!-- Failed suite [PetStore API Test Suite] -->

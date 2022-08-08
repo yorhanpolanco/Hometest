@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-PetStore_API_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">PetStore API Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-PetStore_API_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\yorha\OneDrive\Desktop\Venon\Home Challenge\Rest Assured\PetStore-RestAssured\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-PetStore_API_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-PetStore_API_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-PetStore_API_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-PetStore_API_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-PetStore_API_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-PetStore_API_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PetStore_API_Test_Suite" class="hide-methods passed suite-PetStore_API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-PetStore_API_Test_Suite -->
+                      <a href="#" panel-name="suite-PetStore_API_Test_Suite" class="show-methods passed suite-PetStore_API_Test_Suite"> (show)</a> <!-- show-methods passed suite-PetStore_API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-PetStore_API_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStore_API_Test_Suite" title="testcases.PetStoreAPI_PetTest" class="method navigator-link" hash-for-method="addNewPetToStore">addNewPetToStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStore_API_Test_Suite" title="testcases.PetStoreAPI_PetTest" class="method navigator-link" hash-for-method="deletePetFromStore(11)">deletePetFromStore(11)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStore_API_Test_Suite" title="testcases.PetStoreAPI_PetTest" class="method navigator-link" hash-for-method="findPetsByAnyStatus(sold)">findPetsByAnyStatus(sold)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStore_API_Test_Suite" title="testcases.PetStoreAPI_PetTest" class="method navigator-link" hash-for-method="findPetsByAnyStatus(available)">findPetsByAnyStatus(available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStore_API_Test_Suite" title="testcases.PetStoreAPI_PetTest" class="method navigator-link" hash-for-method="findPetsByAnyStatus(pending)">findPetsByAnyStatus(pending)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStore_API_Test_Suite" title="testcases.PetStoreAPI_PetTest" class="method navigator-link" hash-for-method="tryToSearchPetByInvalidStatus(pendin)">tryToSearchPetByInvalidStatus(pendin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PetStore_API_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PetStore_API_Test_Suite" class="panel PetStore_API_Test_Suite">
+          <div class="suite-PetStore_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PetStoreAPI_PetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewPetToStore">
+                  </a> <!-- addNewPetToStore -->
+                  <span class="method-name">addNewPetToStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePetFromStore(11)">
+                  </a> <!-- deletePetFromStore(11) -->
+                  <span class="method-name">deletePetFromStore</span>
+                  <span class="parameters">(11)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPetsByAnyStatus(sold)">
+                  </a> <!-- findPetsByAnyStatus(sold) -->
+                  <span class="method-name">findPetsByAnyStatus</span>
+                  <span class="parameters">(sold)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPetsByAnyStatus(available)">
+                  </a> <!-- findPetsByAnyStatus(available) -->
+                  <span class="method-name">findPetsByAnyStatus</span>
+                  <span class="parameters">(available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPetsByAnyStatus(pending)">
+                  </a> <!-- findPetsByAnyStatus(pending) -->
+                  <span class="method-name">findPetsByAnyStatus</span>
+                  <span class="parameters">(pending)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryToSearchPetByInvalidStatus(pendin)">
+                  </a> <!-- tryToSearchPetByInvalidStatus(pendin) -->
+                  <span class="method-name">tryToSearchPetByInvalidStatus</span>
+                  <span class="parameters">(pendin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStore_API_Test_Suite-class-passed -->
+        </div> <!-- panel PetStore_API_Test_Suite -->
+        <div panel-name="test-xml-PetStore_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\yorha\OneDrive\Desktop\Venon\Home Challenge\Rest Assured\PetStore-RestAssured\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PetStore API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC001 - Find pets using any valid status (pending, available and sold)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.PetStoreAPI_PetTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;findPetsByAnyStatus&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.PetStoreAPI_PetTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC001 - Find pets using any valid status (pending, available and sold) --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC002 - Try to search pets using an invalid status&quot;&gt;
+    &lt;parameter name=&quot;invalidStatus&quot; value=&quot;pendin&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.PetStoreAPI_PetTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tryToSearchPetByInvalidStatus&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.PetStoreAPI_PetTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC002 - Try to search pets using an invalid status --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC003 - Add new pet to the store&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.PetStoreAPI_PetTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addNewPetToStore&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.PetStoreAPI_PetTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC003 - Add new pet to the store --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC004 - Delete pet from store using pet id&quot;&gt;
+    &lt;parameter name=&quot;petId&quot; value=&quot;11&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.PetStoreAPI_PetTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;deletePetFromStore&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.PetStoreAPI_PetTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC004 - Delete pet from store using pet id --&gt;
+&lt;/suite&gt; &lt;!-- PetStore API Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PetStore_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PetStore API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC001 - Find pets using any valid status (pending, available and sold) (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC002 - Try to search pets using an invalid status (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC003 - Add new pet to the store (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC004 - Delete pet from store using pet id (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PetStore_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PetStore API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PetStore_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PetStore API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PetStore_API_Test_Suite');
+function tableData_PetStore_API_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'findPetsByAnyStatus')
+data.setCell(0, 2, 'testcases.PetStoreAPI_PetTest')
+data.setCell(0, 3, 528);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addNewPetToStore')
+data.setCell(1, 2, 'testcases.PetStoreAPI_PetTest')
+data.setCell(1, 3, 28);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deletePetFromStore')
+data.setCell(2, 2, 'testcases.PetStoreAPI_PetTest')
+data.setCell(2, 3, 18);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tryToSearchPetByInvalidStatus')
+data.setCell(3, 2, 'testcases.PetStoreAPI_PetTest')
+data.setCell(3, 3, 16);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'findPetsByAnyStatus')
+data.setCell(4, 2, 'testcases.PetStoreAPI_PetTest')
+data.setCell(4, 3, 15);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'findPetsByAnyStatus')
+data.setCell(5, 2, 'testcases.PetStoreAPI_PetTest')
+data.setCell(5, 3, 12);
+window.suiteTableData['PetStore_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-PetStore_API_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 617 ms</span>
+              <div id="times-div-PetStore_API_Test_Suite">
+              </div> <!-- times-div-PetStore_API_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PetStore_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PetStore API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PetStore_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PetStoreAPI_PetTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">findPetsByAnyStatus</span>
+                <br/>
+                <span class="ignored-method-name">deletePetFromStore</span>
+                <br/>
+                <span class="ignored-method-name">addNewPetToStore</span>
+                <br/>
+                <span class="ignored-method-name">findPetsByAnyStatus</span>
+                <br/>
+                <span class="ignored-method-name">deletePetFromStore</span>
+                <br/>
+                <span class="ignored-method-name">tryToSearchPetByInvalidStatus</span>
+                <br/>
+                <span class="ignored-method-name">addNewPetToStore</span>
+                <br/>
+                <span class="ignored-method-name">tryToSearchPetByInvalidStatus</span>
+                <br/>
+                <span class="ignored-method-name">deletePetFromStore</span>
+                <br/>
+                <span class="ignored-method-name">addNewPetToStore</span>
+                <br/>
+                <span class="ignored-method-name">findPetsByAnyStatus</span>
+                <br/>
+                <span class="ignored-method-name">tryToSearchPetByInvalidStatus</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PetStore_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PetStoreAPI_PetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">findPetsByAnyStatus(available)</span>
+                <span class="method-start">357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPetsByAnyStatus(pending)</span>
+                <span class="method-start">886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPetsByAnyStatus(sold)</span>
+                <span class="method-start">902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">956 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">tryToSearchPetByInvalidStatus(pendin)</span>
+                <span class="method-start">957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">978 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">addNewPetToStore</span>
+                <span class="method-start">979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1012 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">deletePetFromStore(11)</span>
+                <span class="method-start">1013 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
