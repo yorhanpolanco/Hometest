@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import pojos.PetPojo;
+
 import static io.restassured.RestAssured.given;
 
 public class PetStoreAPI_PetTest extends BaseTest{
@@ -20,14 +22,14 @@ public class PetStoreAPI_PetTest extends BaseTest{
                         .statusCode(200)
                     .extract().response();
 
-//        jsonData = response.getBody().jsonPath();
-//
-//        PetPojo[] petPojos = jsonData.getObject("",PetPojo[].class);
-//
-//        for(int i=0; i < petPojos.length; i++){
-//
-//            System.out.println(petPojos[i].getPetName());
-//        }
+        jsonData = response.getBody().jsonPath();
+
+        PetPojo[] petPojos = jsonData.getObject("",PetPojo[].class);
+
+        for(int i=0; i < petPojos.length; i++){
+
+            System.out.println(petPojos[i].getPetName());
+        }
 
 //        System.out.println("Pets with "+status+" status\n");
 //        System.out.println(jsonData.getString("name"));
